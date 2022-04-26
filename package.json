@@ -1,6 +1,6 @@
 {
 	"name": "web3-token-cardano",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"private": false,
 	"description": "Your wallet is your account. Forget about email and password authentication. Heimdall (Web3 Token) is a new way to authenticate users in hybrid dApps using signed messages on Cardano.",
 	"author": "pyropy, gavinharris-dev, bieric",
@@ -9,7 +9,7 @@
 		"lint": "tslint -p tsconfig.json",
 		"format": "prettier --write \"src/**/*.ts\""
 	},
-	"types": "src/lib.d.ts",
+	"types": "src/index.d.ts",
 	"module": "src/index.ts",
 	"main": "dist/node.js",
 	"dependencies": {
