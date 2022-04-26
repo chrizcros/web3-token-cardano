@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "ES5",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "typeRoots": [
+      "types"
+    ],
+    "esModuleInterop": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": false,
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "*": ["types/*.d.ts"]
+    },
+    "types": [
+      "@types/node",
+      "@types/jest"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
