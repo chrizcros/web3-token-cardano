@@ -1,10 +1,10 @@
-# Heimdall
+# web3-token-cardano
 
-Web3 Cardano Token is a new way to authenticate users. A replacement for JWT in hybrid dApps.
+Your wallet is your account. Forget about email and password authentication. Heimdall (Web3 Token) is a new way to authenticate users in hybrid dApps using signed messages on Cardano.
 
 ## Note
 
-This repository is initially rewritten in Typescript from [https://github.com/pyropy/web3-cardano-token](https://github.com/pyropy/web3-cardano-token). gavin-harris made a great contribution to ...
+This repository is initially rewritten in Typescript from [https://github.com/pyropy/web3-cardano-token](https://github.com/pyropy/web3-cardano-token) and the great contributions of [https://github.com/gavinharris-dev](gavinharris-dev) for his great contributions.
 
 ## Install
 
