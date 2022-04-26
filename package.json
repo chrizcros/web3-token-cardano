@@ -1,62 +1,64 @@
 {
-  "name": "heimdall",
-  "version": "0.1.17",
-  "private": false,
-  "description": "Your wallet is your account. Forget about email and password authentication. Heimdall (Web3 Token) is a new way to authenticate users in hybrid dApps using signed messages on Cardano.",
-  "author": "pyropy, gavinharris-dev, bieric",
-  "scripts": {
-    "build": "webpack --mode=production --progress",
-    "lint": "tslint -p tsconfig.json",
-    "format": "prettier --write \"src/**/*.ts\""
-  },
-  "types": "src/lib.d.ts",
-  "module": "src/index.ts",
-  "main": "dist/node.js",
-  "dependencies": {
-    "@emurgo/cardano-serialization-lib-browser": "^9.1.2",
-    "@emurgo/cardano-serialization-lib-nodejs": "^9.1.2",
-    "bignumber.js": "^9.0.1",
-    "buffer": "^6.0.3",
-    "emurgo-message-signing": "^0.1.0",
-    "emurgo-message-signing-nodejs": "^0.1.0",
-    "js-base64": "^3.7.2",
-    "ms": "^2.1.3",
-    "parse-headers": "^2.0.4"
-  },
-  "devDependencies": {
-    "@types/jest": "^27.4.1",
-    "clean-webpack-plugin": "^4.0.0",
-    "core-js": "^3.6.5",
-    "jest": "^27.3.1",
-    "prettier": "^2.6.2",
-    "ts-loader": "^9.2.8",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^4.6.3",
-    "webpack": "^5.64.2",
-    "webpack-cli": "^4.9.1",
-    "webpack-node-externals": "^3.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
-  "bugs": {
-    "url": "https://github.com/bitlands/heimdall/issues"
-  },
-  "homepage": "https://github.com/bitlands/heimdall#readme",
-  "keywords": [
-    "auth",
-    "token",
-    "jwt",
-    "cardano",
-    "web3",
-    "blockchain"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bitlands/heimdall"
-  }
+	"name": "web3-token-cardano",
+	"version": "0.2.0",
+	"private": false,
+	"description": "Your wallet is your account. Forget about email and password authentication. Heimdall (Web3 Token) is a new way to authenticate users in hybrid dApps using signed messages on Cardano.",
+	"author": "pyropy, gavinharris-dev, bieric",
+	"scripts": {
+		"build": "webpack --mode=production --progress",
+		"lint": "tslint -p tsconfig.json",
+		"format": "prettier --write \"src/**/*.ts\""
+	},
+	"types": "src/lib.d.ts",
+	"module": "src/index.ts",
+	"main": "dist/node.js",
+	"dependencies": {
+		"@emurgo/cardano-serialization-lib-browser": "^9.1.2",
+		"@emurgo/cardano-serialization-lib-nodejs": "^9.1.2",
+		"bignumber.js": "^9.0.1",
+		"buffer": "^6.0.3",
+		"emurgo-message-signing": "^0.1.0",
+		"emurgo-message-signing-nodejs": "^0.1.0",
+		"js-base64": "^3.7.2",
+		"ms": "^2.1.3",
+		"parse-headers": "^2.0.4"
+	},
+	"devDependencies": {
+		"@types/jest": "^27.4.1",
+		"clean-webpack-plugin": "^4.0.0",
+		"core-js": "^3.6.5",
+		"grunt": "^1.5.2",
+		"grunt-semver": "^0.1.9",
+		"jest": "^27.3.1",
+		"prettier": "^2.6.2",
+		"ts-loader": "^9.2.8",
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^4.6.3",
+		"webpack": "^5.64.2",
+		"webpack-cli": "^4.9.1",
+		"webpack-node-externals": "^3.0.0"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	],
+	"bugs": {
+		"url": "https://github.com/bitlands/heimdall/issues"
+	},
+	"homepage": "https://github.com/bitlands/heimdall#readme",
+	"keywords": [
+		"auth",
+		"token",
+		"jwt",
+		"cardano",
+		"web3",
+		"blockchain"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitlands/heimdall"
+	}
 }
